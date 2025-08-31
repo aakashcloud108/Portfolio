@@ -1,51 +1,8 @@
-🌐 My Online Portfolio
 
-This repository contains the source code for my personal portfolio website. It is built with HTML, CSS, and JavaScript, and will be deployed using Azure Kubernetes Service (AKS) through Azure DevOps Pipelines.
-
-I am documenting each step of the process as I build and deploy this project, so this README serves as both project documentation and a learning journal.
+# 🌐 My Online Portfolio
 
 
-📖 Progress Log
+This repository contains the source code for my personal portfolio website.
+It is built with HTML, CSS, and JavaScript, and will be deployed using Azure Kubernetes Service (AKS) through Azure DevOps Pipelines.
 
-Initial Setup: Created a simple portfolio site with HTML, CSS, and JS. Uploaded source code to GitHub.
-
-Pipeline Setup: Connected GitHub repo with Azure DevOps pipelines for automated deployment into AKS.
-
-Current Issue:
-
-Encountered error:
-
-##[error]No hosted parallelism has been purchased or granted.  
-To request a free parallelism grant, please fill out the following form:  
-https://aka.ms/azpipelines-parallelism-request
-
-
-Cause: Private projects on Azure DevOps don’t get free parallelism by default.
-
-Action: Need to request permission from Azure to enable free parallelism.
-
-
-🛠️ Tech Stack (Planned)
-
-HTML, CSS, JavaScript (Frontend)
-
-GitHub (Source Control)
-
-Azure DevOps Pipelines (CI/CD)
-
-Docker (Containerization)
-
-Azure Kubernetes Service (AKS) (Hosting)
-
-
-📌 Roadmap / Next Steps
-
- Request parallelism grant from Azure
-
- Test pipeline execution
-
- Deploy containerized portfolio site to AKS
-
- Add custom domain
-
- Expand site content
+The goal of this project is not only to host my portfolio online but also to document the entire process of setting up CI/CD pipelines, containerization, and cloud deployment step by step.
