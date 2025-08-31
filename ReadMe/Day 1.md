@@ -10,7 +10,7 @@
 
 ### First Error Encountered
 
-![Pipeline Error](ReadMe/images/image.png)
+![Pipeline Error](Portfolio/ReadMe/images/image.png)
 - **Error Message:**  
 ##[error]No hosted parallelism has been purchased or granted.
 To request a free parallelism grant, please fill out the following form:
